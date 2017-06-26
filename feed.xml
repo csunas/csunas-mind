@@ -15,7 +15,7 @@
 				{% endif %}        
 
                 <description xml:space="preserve">{{ post.title }}
----
+---------
 
 {{ post.event_date | date: "%b %d %I:%M%p" }}
 
