@@ -3,6 +3,8 @@ backend:
   repo: csunas/csunas-mind # Path to your Github repository
   branch: master # Branch to update
 
+media_folder: "assets/uploads"
+
 collections:
   - name: "events" # Used in routes, e.g. /admin/collections/blog
     label: "Events" # Used in the UI
