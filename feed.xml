@@ -14,7 +14,8 @@
 					<dc:creator>{{ post.author.name | xml_escape }}</dc:creator>
 				{% endif %}        
 
-                <description xml:space="preserve">{{ post.title }}
+                <description xml:space="preserve">
+{{ post.title }}
 -----
 
 {{ post.event_date | date: "%b %d %I:%M%p" }}
