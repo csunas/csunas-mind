@@ -16,4 +16,4 @@ collections:
       - {label: "Name of Event", name: "title", widget: "string"}
       - {label: "Location", name: "location", widget: "string"}
       - {label: "Event Date", name: "event_date", widget: "datetime"}
-      - {label: "Description", name: "body", widget: "markdown"}
+      # - {label: "Description", name: "body", widget: "markdown"}
